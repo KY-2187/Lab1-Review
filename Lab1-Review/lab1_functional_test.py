@@ -46,7 +46,7 @@ class NewVisitorTest(unittest.TestCase):
 		# She clicks this and she is redirected back to the wiki's homepage.	
 		back_button = self.browser.find_element_by_id('back_button')
 		self.assertEqual(
-			'Back to Heroes List'
+			'Back to Heroes List',
 			back_button.text
 		)
 		back_button.click()
